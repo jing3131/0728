@@ -1,0 +1,13 @@
+  body {
+    width: 100%;
+    margin: 0px;
+  }
+
+  div {
+    float: left;    /* 浮動，有空間就靠向左(表示右邊可以再放東西) */
+    width: 100px;
+    height: 100px;
+    border: 1px solid #eaeaea;
+    margin: 5px;
+    padding: 10px;
+  }

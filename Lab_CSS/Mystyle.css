@@ -1,0 +1,44 @@
+body {
+    padding-left: 13em;     
+    /* 
+    1em = 16px 
+    padding:物件與自己的邊框(border)之間的距離
+    marging:兩物件的邊框之間的距離
+    padding 1 2 3 4 →上右下左
+    */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;      /* font-family: 字體的志願序 */
+    background-color: #ffffff;
+    background-image: url("images/gradientBlue.png");
+    background-repeat: repeat-x;     /* 往X軸方向重複延伸 */  
+     
+}
+h1 {
+    font-family: Helvetica, Geneva, Arial,
+      SunSans-Regular, sans-serif;
+}
+
+ul.navbar {
+    position: absolute;     /* 不再採用預設值，使用絕對位置 */
+    top: 2em;
+    left: 1em;
+    width: 9em;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    }
+
+    ul.navbar li {
+        background-color: #ffffff;
+        margin: 1em 0em;    /* 上邊與右邊(上邊就會跟下邊一樣，左跟右一樣) */
+        padding: 0.3em;
+        border-right: 1em solid black;  /*寬度、樣式、顏色*/
+    }
+    ul.navbar a {
+        text-decoration: none;
+    }
+    address {
+        margin-top: 4em;
+        border-top: 1px dashed gray;
+        padding-top: 1em;
+    }

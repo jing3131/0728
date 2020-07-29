@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p {
+            color: tan;
+        }
+        .lucky {
+            color: cadetblue;
+        }
+        p.lucky {
+            color: cornflowerblue;
+        }
+        #p1 {
+            color: dodgerblue;
+        }
+        div p {
+            color: olivedrab;
+        }
+        .em1 {
+            font-style: italic;
+        }
+        body{
+            background-image: url("");
+            background-repeat: repeat-x;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>It's work</h1>
+    <!-- ../data/faq.htm   → ".."為上層資料夾 -->
+    <!-- 頁面連結
+        <a href="#smallSummer" /> 小暑 </a>
+        <a name="smallSummer" />  </a>
+     -->
+     <a target="_blank" href="http://www.hiNet.net">HiNet</a>
+
+     <table border="1px" width="70%">  <!-- border:框線 width:整個表格大小 -->
+         <tr><td>1-1</td><td colspan="2">1-2</td><td>1-3</td></tr>          <!--colspan:跨欄位 -->
+         <tr><td  rowspan="2">2-1</td><td>2-2</td><td>2-3</td></tr>      <!--rowspan:跨列 -->
+         <tr><td>3-1</td><td>3-2</td><td>3-3</td></tr>
+     </table>
+
+     <!-- 範圍越小，優先度越高 -->
+     <h1 class="lucky em1">Heading</h1>
+     <p id="p1" class="lucky">this is paragraph 1.</p>
+     <p>this is paragraph 2.</p>
+     <p class="lucky">this is paragraph 3.</p>
+     <p>this is paragraph 4.</p>
+     <p>this is paragraph 5.</p>
+     <p>this is paragraph 6.</p>
+     <div>
+        <p>this is paragraph 7.</p>
+        <p>this is paragraph 8.</p>
+     </div>
+
+
+    
+</body>
+</html>
+
